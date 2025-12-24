@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.header {
+  background: #1a1a1a;
+  color: white;
+  padding: 20px;
+}
+
+.header h1 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.search-bar {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.search-bar input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 15px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+.results {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.results ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.results li {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.results li:hover {
+  background: #f9f9f9;
+}
